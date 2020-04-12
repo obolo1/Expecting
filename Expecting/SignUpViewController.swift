@@ -42,13 +42,15 @@ class SignUpViewController: UIViewController {
                 }
                 else {
                     
-                    self.performSegue(withIdentifier: "registerSegue", sender: nil)
+                   self.performSegue(withIdentifier: "registerSegue", sender: nil)
                     print("Error: \(error?.localizedDescription)")
                 }
             
     }
     
     }
+    
+    
     
     
     
