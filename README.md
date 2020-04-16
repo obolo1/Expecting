@@ -17,7 +17,7 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
 
 ### App Evaluation
 
-- **Category: ** Health and Lifestyle
+- **Category: Health and Lifestyle
 - **Mobile:**
 - **Story:**
 - **Market: ** Pregnant Women
