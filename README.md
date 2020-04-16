@@ -53,7 +53,6 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
    * User can add a bedtime
    * User can add if they are physically
    * User can create unique reminders 
-
    * User can logout
    * User can delete account
 
@@ -72,17 +71,17 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
 
 **Flow Navigation** (Screen to Screen)
 
-* Login
-   * Takes User to home page if already signed up
-   * If sign up button is tapped the user will be taken to the registration page
-       *Username and password creation page
-       *Personal Info
-       *Maternal Welfare page
-       *Then to Homepage
-* Home Page
-   * From home page the user navigate to the schedule page
-   * From home page the user navigate to the edit profile page
-   * From home page the user can logout
+* Login Screen => Home Page (If user has already signed up)
+OPTIONS: 
+- If sign up button is tapped the user will be taken to the registration page 
+OR: 
+- Username and password creation page
+- Personal Info
+- Maternal Welfare page
+- Then to Homepage
+* Home Page Screen => Schedule page
+* Home Page Screen => Edit profile page
+* Profile Page => Login Screen (If user logs out or deletes account)
 
 ## Wireframes
 
@@ -100,7 +99,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/OoCElfrSOo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 **Posts**
 | Property | types | Description |
