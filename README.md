@@ -72,9 +72,9 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
 **Flow Navigation** (Screen to Screen)
 
 * Login Screen => Home Page (If user has already signed up)
-OPTIONS: 
+- OPTIONS: 
 - If sign up button is tapped the user will be taken to the registration page 
-OR: 
+- OR: 
 - Username and password creation page
 - Personal Info
 - Maternal Welfare page
