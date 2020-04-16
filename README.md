@@ -13,7 +13,7 @@ Group Project - README Template
 ## Overview
 ### Description
 
-To remind pregnant women to do the various things they need to do to have a healthy pregnancy.
+To remind pregnant women to do the various things deemed neccesary to have a healthy pregnancy.
 
 ### App Evaluation
 
@@ -30,31 +30,37 @@ To remind pregnant women to do the various things they need to do to have a heal
 
 **Required Must-have Stories**
 
-* User can register and login (done)
-* User can add name, age, weeks pregnant
-* User can add information given from doctor
+[X] User can register and login (done)
+[] User can add name, age, weeks pregnant
+[] User can add information given from doctor
 
 **Optional Nice-to-have Stories**
 
-* Ring alarm when time to eat or take required medication
-* Reminder of when you should go to bed
-* Encouraging reminders sent throughout the day
+[] Ring alarm when time to eat or take required medication
+[] Reminder of when you should go to bed
+[] Encouraging reminders sent throughout the day
 
 
 ### 2. Screen Archetypes
 
-* The Login or Register
+* The Login or Register Screen 
    * User can login
    * Creates username and password
    
-* User Data Input
-   [X] User adds age, weeks pregnant
-   [] User can add if they are on multivitamins
-   [] User can add a bedtime
-   [] User can enter if they are physically
-   [] User can add what time they would like to be reminded of all these things
+* User Profile Screen 
+   * User adds age, weeks pregnant
+   * User can add if they are on multivitamins
+   * User can add a bedtime
+   * User can add if they are physically
+   * User can create unique reminders 
+
+   * User can logout
+   * User can delete account
 
 * Home Page
+   * User can adjust the amount of reminders needed
+   * User can delete reminders
+   * User can specify what time they would like to be reminded 
    
 ### 3. Navigation
 
