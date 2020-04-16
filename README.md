@@ -17,12 +17,12 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
 
 ### App Evaluation
 
-- **Category: Health and Lifestyle
-- **Mobile:**
-- **Story:**
-- **Market: ** Pregnant Women
-- **Habit:**
-- **Scope:**
+- **Category:** Health and Lifestyle
+- **Mobile:** This app would be optimized for mobile use
+- **Story:** Allows users to have a reliable scorce to keep them alert and conscius of neccesary tasks or actions during their pregnancy
+- **Market:** Pregnant Women
+- **Habit:** This app would be used based on how often the user may need to be remineded of a pregnancy related necessity
+- **Scope:** 
 
 ## Product Spec
 
@@ -30,15 +30,15 @@ To remind pregnant women to do the various things deemed neccesary to have a hea
 
 **Required Must-have Stories**
 
-[X] User can register and login (done)
-[] User can add name, age, weeks pregnant
-[] User can add information given from doctor
+- [X] User can register and login (done)
+- [ ] User can add name, age, weeks pregnant
+- [ ] User can add information given from doctor
 
 **Optional Nice-to-have Stories**
 
-[] Ring alarm when time to eat or take required medication
-[] Reminder of when you should go to bed
-[] Encouraging reminders sent throughout the day
+- [ ] Ring alarm when time to eat or take required medication
+- [ ] Reminder of when you should go to bed
+- [ ] Encouraging reminders sent throughout the day
 
 
 ### 2. Screen Archetypes
@@ -79,6 +79,7 @@ OR:
 - Personal Info
 - Maternal Welfare page
 - Then to Homepage
+
 * Home Page Screen => Schedule page
 * Home Page Screen => Edit profile page
 * Profile Page => Login Screen (If user logs out or deletes account)
@@ -126,7 +127,5 @@ let query = PFQuery(className: "Items")
             }
         }
 ```
-
-
     
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
