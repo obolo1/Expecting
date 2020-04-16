@@ -17,10 +17,10 @@ To remind pregnant women to do the various things they need to do to have a heal
 
 ### App Evaluation
 
-- **Category: Health and Lifestyle**
+- **Category: ** Health and Lifestyle
 - **Mobile:**
 - **Story:**
-- **Market: Pregnant Women**
+- **Market: ** Pregnant Women
 - **Habit:**
 - **Scope:**
 
