@@ -43,10 +43,21 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func onSignUpButton(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = usernameField.text
         
-        self.performSegue(withIdentifier: "SignUpSegue", sender: nil)
+        user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "SignUpSegue", sender: nil)
+            }else{
+                print("Error: \(error?.localizedDescription)")
+                
+            }
+        }        
     }
     
+
     
     
     

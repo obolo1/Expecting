@@ -20,6 +20,9 @@
 		2EAE94C4DFD36C42FF1EBEFD /* Pods_ExpectingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893076BE3314FF5E22AAA4A3 /* Pods_ExpectingTests.framework */; };
 		46F15C507B054B54A033D668 /* Pods_Expecting_ExpectingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B596349B50E6FC34DC86B2 /* Pods_Expecting_ExpectingUITests.framework */; };
 		EBA1DC49F37326C2FA626FAA /* Pods_Expecting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135E0681E8636C89E34C32F9 /* Pods_Expecting.framework */; };
+		FB63EA01244C19260067D00C /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63EA00244C19260067D00C /* MonthViewController.swift */; };
+		FB63EA03244C2A5F0067D00C /* LastMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63EA02244C2A5F0067D00C /* LastMonthViewController.swift */; };
+		FB63EA07244C48900067D00C /* MonthDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63EA06244C48900067D00C /* MonthDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		98B596349B50E6FC34DC86B2 /* Pods_Expecting_ExpectingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expecting_ExpectingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD106132CD2085B2B01A3236 /* Pods-Expecting-ExpectingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expecting-ExpectingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Expecting-ExpectingUITests/Pods-Expecting-ExpectingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D77C5ED1F41FCBE9E456AFDE /* Pods-ExpectingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectingTests.debug.xcconfig"; path = "Target Support Files/Pods-ExpectingTests/Pods-ExpectingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB63EA00244C19260067D00C /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		FB63EA02244C2A5F0067D00C /* LastMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMonthViewController.swift; sourceTree = "<group>"; };
+		FB63EA06244C48900067D00C /* MonthDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 				18851D6C243559560009A3FA /* LoginViewController.swift */,
 				18851D6E2435596A0009A3FA /* SignUpViewController.swift */,
 				18851D70243589D80009A3FA /* RegistrationViewController.swift */,
+				FB63EA00244C19260067D00C /* MonthViewController.swift */,
+				FB63EA02244C2A5F0067D00C /* LastMonthViewController.swift */,
+				FB63EA06244C48900067D00C /* MonthDetailsViewController.swift */,
 			);
 			path = Expecting;
 			sourceTree = "<group>";
@@ -415,9 +424,12 @@
 			files = (
 				18851D6D243559560009A3FA /* LoginViewController.swift in Sources */,
 				18834BBA24317411005E539C /* AppDelegate.swift in Sources */,
+				FB63EA03244C2A5F0067D00C /* LastMonthViewController.swift in Sources */,
 				18851D6F2435596A0009A3FA /* SignUpViewController.swift in Sources */,
+				FB63EA07244C48900067D00C /* MonthDetailsViewController.swift in Sources */,
 				18834BBC24317411005E539C /* SceneDelegate.swift in Sources */,
 				18851D71243589D80009A3FA /* RegistrationViewController.swift in Sources */,
+				FB63EA01244C19260067D00C /* MonthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

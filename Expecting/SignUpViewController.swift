@@ -62,13 +62,15 @@ class SignUpViewController: UIViewController {
         
     }
     
-    
-    
-    
-    
-    
+    @IBAction func FirstFourMonths(_ sender: Any) {
+        self.performSegue(withIdentifier: "MonthSegue", sender: nil)
+        }
     
 
+    @IBAction func LastFiveMonths(_ sender: Any) {
+        self.performSegue(withIdentifier: "LastMonthSegue", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
